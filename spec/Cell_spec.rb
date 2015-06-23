@@ -1,10 +1,12 @@
-require './app/Cell'
+require './app/cell'
 
-describe Cell 
+describe Cell do
 
-it 'has its coordinates x,y' do
-	
-	cell_one=Cell.new(0,0)
-	Cell.x.should == 0
-	Cell.y.should == 0
+	it 'has its coordinates x,y' do
+		cell_one=Cell.new(0,0)
+		
+		cell_one.x.should == 0
+		cell_one.y.should == 0
+	end
+
 end
