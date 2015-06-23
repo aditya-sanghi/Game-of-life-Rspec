@@ -8,6 +8,10 @@ class Cell
 		@alive=false
 	end
 
+	def push(x,y)
+		@x=x
+		@y=y
+	end
 
 	def alive
 		@alive=true

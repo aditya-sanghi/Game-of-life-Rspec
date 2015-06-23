@@ -11,6 +11,11 @@ describe Grid do
 
 	end
 
+	it 'give default coordinates to all cells'
+		
+		
+
+	end
 	
 end
 
